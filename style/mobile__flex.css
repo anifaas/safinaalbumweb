@@ -1,0 +1,128 @@
+@media only screen and (max-width: 750px) {
+    .container{
+        width: auto!important;
+    }
+
+    .main-content {
+      flex-direction: column;
+    }
+    .main-content__left--title{
+        display: none;
+    }
+    .main-content__left{
+        width: 100%;
+    }
+  
+    .main-content__right{
+        padding: 0 30px;
+        width: 100%;
+        justify-content: center;
+    }
+    .main__registration {
+        justify-content: center;
+        height: 70px;
+    }
+
+    .main__registration button{
+        font-size: 16px;
+        width: 100px;
+        height: 40px;
+    }
+    .bgf-ii {
+        overflow: hidden;
+    }
+    .inflis {
+        width: 100%;
+        padding: 20px;
+        border-radius: 18px;
+        margin-bottom: 80px;
+    }
+
+    .inflis__title{
+        font-size: 32px;
+    }
+    .inflis__sub button{
+        font-size: 24px;
+    }
+
+    .inflis__paragraph {
+        font-size: 16px;
+    }
+
+    .navigation {
+        bottom: 0;
+        width: 100%;
+    }
+
+    .navbar{
+        width: 100%;
+        height: 50px;
+        border-radius: 0;
+    }
+    .navbar__item {
+        width: 70px;
+        height: 70px;
+    }
+
+    .img-disk {
+        left: 150px;
+        max-width: 40%;
+    }
+    
+    .slide__navigation {
+        top: 50%;
+    }
+    
+    /* 2_page */
+
+    .tickets{
+        margin-top: 0;
+        padding-top: 50px;
+    }
+    .tickets__title{
+        padding: 0 10px;
+    }
+    .tickets__list {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .packages__title{
+        padding: 0 10px;
+    }
+    .packages__list {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .alums__title{
+        padding: 0 10px;
+    }
+    .albums {
+        padding: 0 10px;
+        flex-wrap: wrap;
+    }
+
+    .album {
+        flex-basis: calc(50% - 30px);
+        margin-bottom: 50px;
+    }
+
+    .album__cover img{
+        max-width: 90%;
+    }
+    .album__sub {
+        margin-bottom: 0;
+    }
+    .album__sub p{
+        font-size: 14px;
+    }
+    .album__sub span {
+        font-size: 16px;
+    }
+
+    .sd-1 {
+        right: 10px;
+    }
+    .sd-2 {
+        left: 20px;
+    }
+}

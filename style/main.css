@@ -1,0 +1,49 @@
+@import url(bg_anim.css);
+@import url(regist-top.css);
+@import url(home-page.css);
+@import url(navigation.css);
+@import url(tickets.css);
+@import url(packages.css);
+@import url(albums.css);
+
+@import url(mobile__flex.css);
+
+body {
+    background: rgba(217, 217, 217, 0.20);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'LG-regular';
+    src: url(/fonts/LeagueGothic-Regular.ttf);
+}
+@font-face {
+    font-family: 'GoogleSans';
+    src: url(/fonts/GoogleSans-Regular.ttf);
+}
+
+a{
+    text-decoration: none;
+}
+
+p {
+    font-family: 'GoogleSans';
+    font-size: 18px;
+    color: #000;
+}
+
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+:root {
+    --swiper-navigation-color: #000;
+}

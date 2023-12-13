@@ -1,0 +1,40 @@
+.main__registration {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
+    height: 120px;
+}
+
+
+.main__registration--registration {
+    color: #000;
+    text-align: center;
+    font-family: League Gothic;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+}
+
+.main__registration--login {
+    color: #fff;
+    text-align: center;
+    font-family: League Gothic;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border: none;
+    background: #000;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+}

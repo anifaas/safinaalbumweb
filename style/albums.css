@@ -1,0 +1,82 @@
+.alums__title {
+    margin-top: 50px;
+}
+
+.alums__title h3{
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'LG-regular';
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.albums {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.album__cover {
+    width: 100%;
+}
+
+.album__cover button {
+    background: none;
+    border: none;
+    max-width: 100%;
+}
+
+.album__cover img {
+    max-width: 70%;
+    height: auto;
+}
+.sd-1 {
+    position: relative;
+    right: 50px;
+}
+.sd-2 {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 80px;
+}
+
+.album__sub{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.album__sub h1{
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'LG-regular';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.album__sub span {
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'GoogleSans';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
